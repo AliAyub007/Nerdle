@@ -194,7 +194,7 @@ const Game: React.FC<{
     let {
       data: { record },
     } = await axios({
-      url: "https://api.jsonbin.io/v3/b/62dc0bfa2c868775a534ad5a/latest",
+      url: "https://api.jsonbin.io/v3/b/62dd25a82c868775a535943c/latest",
       method: "get",
       headers: {
         "X-Master-Key": masterKey,
