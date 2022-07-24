@@ -4,7 +4,6 @@ import { checkIfValidEquation, create2DArray } from "src/helpers"
 
 let API_KEY = import.meta.env.VITE_JSONBIN_API_KEY
 
-
 const RowsByDifficultyLevel = [
   { name: "easy", rows: 6, color: "#99fc37" },
   { name: "amateur", rows: 5, color: "#cafc25" },
